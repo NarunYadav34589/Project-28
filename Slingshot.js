@@ -20,6 +20,7 @@ class Slingshot{
         var pointB=this.pointB;
         strokeWeight(4);
         line(pointA.x,pointA.y,pointB.x,pointB.y)
+        
     }
 
     }

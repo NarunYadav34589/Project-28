@@ -42,7 +42,7 @@ function draw() {
 	//box3.display();
 	//box1.display();
 	//box2.display();
-	image(boximage,100,330,200,200);
+	image(boximage,700,330,200,200);
 	
 	Slingshot.display();
  
@@ -50,9 +50,9 @@ function draw() {
 
 	
 
-	 function mousePressed(){
+	 function mouseDragged(){
 
-		Matter.Body.setPosition(bird.body,{x:mouseX,y:mouseY})
+		Matter.Body.setPosition(paper1.body,{x:mouseX,y:mouseY})
 	 }
 
      function mouseReleased(){
